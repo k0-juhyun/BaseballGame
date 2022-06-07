@@ -29,7 +29,7 @@ Apllication.Quit();
     // Start is called before the first frame update
     void Start()
     {
-        
+        Debug.Log("되주세요 제발");
     }
 
     // Update is called once per frame
