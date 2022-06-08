@@ -12,7 +12,7 @@ public class Baseball_Kinds : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ran = Random.Range(1, 5);   // 1이상 5 미만
+        ran = Random.Range(1, 1);   // 1이상 5 미만
 
         //switch (ran)
         //{

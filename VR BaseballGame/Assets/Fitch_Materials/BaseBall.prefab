@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4335919259533884902, guid: 049070b21e8fe4b4ea6fd83408f44ad1, type: 3}
       propertyPath: lifetime
-      value: 20
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5914691030821295296, guid: 049070b21e8fe4b4ea6fd83408f44ad1, type: 3}
       propertyPath: m_IsActive
@@ -90,6 +90,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e548d6594131454f8c24e4bcb939b77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  foke: {fileID: 0}
-  screw: {fileID: 0}
-  courve: {fileID: 0}

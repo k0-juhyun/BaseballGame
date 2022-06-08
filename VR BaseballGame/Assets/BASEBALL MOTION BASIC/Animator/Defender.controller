@@ -17,12 +17,12 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 3.956937
-  m_TransitionOffset: 0.013915
-  m_ExitTime: 0.0015904647
+  m_TransitionDuration: 0.51751614
+  m_TransitionOffset: 0
+  m_ExitTime: 0
   m_HasExitTime: 0
   m_HasFixedDuration: 1
-  m_InterruptionSource: 0
+  m_InterruptionSource: 1
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
 --- !u!1109 &-8884990021592800518
@@ -203,6 +203,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 4
     m_ConditionEvent: Baseball_height
     m_EventTreshold: 1
+  - m_ConditionMode: 4
+    m_ConditionEvent: Baseball_position
+    m_EventTreshold: 30
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6973624304341095333}
   m_Solo: 0
@@ -212,9 +215,9 @@ AnimatorStateTransition:
   m_TransitionDuration: 0.22850548
   m_TransitionOffset: 0
   m_ExitTime: 0.0043777083
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 1
-  m_InterruptionSource: 0
+  m_InterruptionSource: 2
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
 --- !u!1102 &-6671141968429185660
@@ -401,6 +404,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 4
     m_ConditionEvent: Baseball_height
     m_EventTreshold: 6.01
+  - m_ConditionMode: 4
+    m_ConditionEvent: Baseball_position
+    m_EventTreshold: 30
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1995882848117870117}
   m_Solo: 0
@@ -410,9 +416,9 @@ AnimatorStateTransition:
   m_TransitionDuration: 0.42248648
   m_TransitionOffset: 0.006113419
   m_ExitTime: 0.00000005172148
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 1
-  m_InterruptionSource: 0
+  m_InterruptionSource: 2
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
 --- !u!1102 &-3311283844291624824
@@ -686,9 +692,12 @@ AnimatorStateTransition:
   - m_ConditionMode: 3
     m_ConditionEvent: Baseball_height
     m_EventTreshold: 1.01
-  - m_ConditionMode: 3
+  - m_ConditionMode: 4
     m_ConditionEvent: Baseball_height
     m_EventTreshold: 3
+  - m_ConditionMode: 4
+    m_ConditionEvent: Baseball_position
+    m_EventTreshold: 30
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3236188305746472197}
   m_Solo: 0
@@ -698,9 +707,9 @@ AnimatorStateTransition:
   m_TransitionDuration: 0.12909263
   m_TransitionOffset: 0
   m_ExitTime: 0
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 1
-  m_InterruptionSource: 0
+  m_InterruptionSource: 2
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
 --- !u!1102 &205615070786041213
@@ -795,12 +804,12 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.3463015
-  m_TransitionOffset: 0.79766816
-  m_ExitTime: 0.030115886
+  m_TransitionDuration: 1.9480226
+  m_TransitionOffset: 1.7716284
+  m_ExitTime: 0.00000022249746
   m_HasExitTime: 0
   m_HasFixedDuration: 1
-  m_InterruptionSource: 0
+  m_InterruptionSource: 2
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
 --- !u!1101 &657206056421476200
